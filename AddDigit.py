@@ -5,4 +5,5 @@ class Solution(object):
         else:
             return num%9 if num%9!=0 else 9
 obj=Solution()
+
 print(obj.addDigits(14))    
