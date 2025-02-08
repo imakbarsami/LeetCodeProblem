@@ -8,6 +8,7 @@ class Solution(object):
             else:
                 maxprofit=max(maxprofit,(prices[i]-current))
         return maxprofit
-    
+
+
 obj=Solution()
 print(obj.maxProfit([7,6,4,3,1]))
