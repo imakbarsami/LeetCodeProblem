@@ -6,5 +6,6 @@ class Solution(object):
                 profit+=(prices[i]-prices[i-1])
         return profit
 
+
 obj=Solution()
 print(obj.maxProfit([7,6,4,3,1]))
