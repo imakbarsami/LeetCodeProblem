@@ -11,5 +11,6 @@ class Solution(object):
                 ans[i]=max(ans[i],ans[i+1]+1)
         
         return sum(ans)
+        
 obj=Solution()
 print(obj.candy([1,0,2]))
